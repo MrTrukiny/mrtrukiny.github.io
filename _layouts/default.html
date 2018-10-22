@@ -6,15 +6,7 @@
     <div class="full-hero hero-home">
       <h1>I'm an h1</h1>
       <ul class="social-list">
-        <li>
-          <a href="http://example.com/" class="social-link">Fb</a>
-        </li>
-        <li>
-          <a href="http://example.com/" class="social-link">Tw</a>
-        </li>
-        <li>
-          <a href="http://example.com/" class="social-link">Gh</a>
-        </li>
+        {% include hero-links.html %}
       </ul>
     </div>
     <h2>THE FOUNDERS</h2>
@@ -110,5 +102,6 @@
       Other related tutorials can be found at
       <a href="https://learnenough.com/">learnenough.com</a>.
     </p>
+    {% include footer.html %}
   </body>
 </html>
